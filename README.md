@@ -1,4 +1,6 @@
-# listing-video-editor
+# Imperfect Interview App
+
+This application is fake. It is meant to mimic an app that can be found in our codebase, but it is not real working code. Do not try to actually perform development with the instructions below.
 
 ## Local Development
 
