@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputButton 1`] = `
+.emotion-0 {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  -webkit-transform: translate(-30%,-50%);
+  -ms-transform: translate(-30%,-50%);
+  transform: translate(-30%,-50%);
+}
+
+.emotion-0 svg.cx-icon {
+  vertical-align: unset;
+}
+
+.emotion-0:hover {
+  cursor: pointer;
+}
+
+<InputButton>
+  <button
+    className="emotion-0"
+  >
+    my content
+  </button>
+</InputButton>
+`;

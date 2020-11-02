@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Template renders 1`] = `
+<html
+  lang="en-US"
+>
+  <head>
+    <meta
+      content="IE=edge"
+      httpEquiv="X-UA-Compatible"
+    />
+    <meta
+      charSet="utf-8"
+    />
+    <meta
+      content="width=device-width, initial-scale=1"
+      name="viewport"
+    />
+    <script
+      src="http://my.analytics"
+    />
+    <link
+      href="/ucfe-assets/normalize.css/8/normalize.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/ucfe-assets/util-classes.css/2/util-classes.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/ucfe-assets/fonts/3/fonts.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/ucfe-assets/cx/2/cx.min.css"
+      rel="stylesheet"
+    />
+    <title>
+      Video Generator
+    </title>
+  </head>
+  <body
+    className="uc-appBody"
+  >
+    <div
+      className="uc-appContainer"
+    >
+      <script
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "something",
+          }
+        }
+        id="listing-video-editor-uc-globals"
+        type="application/json"
+      />
+      <Title />
+      <div
+        css={
+          Object {
+            "width": "100%",
+          }
+        }
+        id="root"
+      >
+        REACT_APP_PLACEHOLDER
+      </div>
+      <div
+        id="portal-root"
+      />
+    </div>
+    <script
+      src="/path/to/vendor.js"
+      type="text/javascript"
+    />
+    <script
+      src="/path/to/client.js"
+      type="text/javascript"
+    />
+  </body>
+</html>
+`;

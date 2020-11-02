@@ -1,0 +1,52 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": false,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom"
+    ],
+    "types": [
+      "@emotion/core",
+      "@emotion/styled",
+      "@testing-library/jest-dom",
+      "jest",
+      "node",
+      "webpack-env"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@helpers/*": [
+        "test/helpers/*"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}

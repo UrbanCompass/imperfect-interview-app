@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FetchDataDropdown renders default 1`] = `
+<Items
+  loadError={false}
+  loading={true}
+/>
+`;
+
+exports[`FetchDataDropdown renders fetched (loaded) items 1`] = `
+<Items
+  itemsToDisplay={
+    Array [
+      Object {
+        "fakeData": true,
+      },
+    ]
+  }
+  loadError={false}
+  loading={false}
+/>
+`;
+
+exports[`FetchDataDropdown renders fetched (loaded) sections 1`] = `
+<Items
+  itemsToDisplay={
+    Array [
+      Object {
+        "listOfItems": Array [
+          Object {
+            "id": "a",
+            "value": "A",
+          },
+        ],
+        "title": "has sections",
+      },
+    ]
+  }
+  loadError={false}
+  loading={false}
+/>
+`;
+
+exports[`FetchDataDropdown renders null if no input value 1`] = `""`;

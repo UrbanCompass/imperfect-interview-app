@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList renders default items 1`] = `
+<Fragment>
+  <li
+    className="cx-optionsMenu-item"
+    data-tn="tours-my-Id-dropdown-item"
+    itemProp="foo"
+    key="a"
+  >
+    first
+  </li>
+  <li
+    className="cx-optionsMenu-item is-active"
+    data-tn="tours-my-Id-dropdown-item"
+    itemProp="foo"
+    key="b"
+  >
+    second
+  </li>
+</Fragment>
+`;
+
+exports[`ItemList renders with inputIndex 1`] = `
+<div>
+  <li
+    class="cx-optionsMenu-item"
+    data-tn="tours-my-Id-dropdown-item"
+    itemprop="foo"
+  >
+    first
+  </li>
+  <li
+    class="cx-optionsMenu-item is-active"
+    data-tn="tours-my-Id-dropdown-item"
+    itemprop="foo"
+  >
+    second
+  </li>
+</div>
+`;

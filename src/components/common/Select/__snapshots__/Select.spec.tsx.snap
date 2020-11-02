@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders Downshift 1`] = `
+<Downshift
+  defaultHighlightedIndex={null}
+  defaultIsOpen={false}
+  environment={[Window]}
+  getA11yStatusMessage={[Function]}
+  id="downshift-my-id"
+  itemToString={[Function]}
+  onChange={[MockFunction]}
+  onInputValueChange={[Function]}
+  onOuterClick={[Function]}
+  onSelect={[Function]}
+  onStateChange={[Function]}
+  onUserAction={[Function]}
+  scrollIntoView={[Function]}
+  selectedItemChanged={[Function]}
+  stateReducer={[Function]}
+  suppressRefError={false}
+>
+  <Component />
+</Downshift>
+`;
+
+exports[`Select renders FetchedDropdown if options given, and dropdown Open 1`] = `
+<div>
+  <Context.Provider
+    value={
+      Object {
+        "clear": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "containerStyle": undefined,
+        "disableInput": undefined,
+        "fakeDownshiftProp": true,
+        "fakeTopLevelProp": true,
+        "fetchDataProps": Object {
+          "loadFn": [Function],
+          "makeLoadProps": [Function],
+          "transformToItems": [Function],
+        },
+        "getLabelProps": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "inputId": "my-id",
+        "isOpen": true,
+        "items": Array [
+          Object {
+            "id": "foo",
+            "value": "foo",
+          },
+          Object {
+            "id": "bar",
+            "value": "bar",
+          },
+          Object {
+            "id": "foobar",
+            "value": "foobar",
+          },
+        ],
+        "placeholder": "enter",
+        "selectedItems": Array [],
+      }
+    }
+  >
+    <label
+      className="cx-formElement"
+      htmlFor="my-id"
+    >
+      <p
+        className="cx-formElement-label"
+      >
+        my label
+      </p>
+      <SelectInput />
+      <FetchDataDropdown />
+    </label>
+  </Context.Provider>
+</div>
+`;
+
+exports[`Select renders closed downshift content 1`] = `
+<div>
+  <Context.Provider
+    value={
+      Object {
+        "clear": [MockFunction],
+        "containerStyle": undefined,
+        "disableInput": undefined,
+        "fakeDownshiftProp": true,
+        "fakeTopLevelProp": true,
+        "fetchDataProps": undefined,
+        "getLabelProps": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "inputId": "my-id",
+        "isOpen": false,
+        "items": Array [
+          Object {
+            "id": "foo",
+            "value": "foo",
+          },
+          Object {
+            "id": "bar",
+            "value": "bar",
+          },
+          Object {
+            "id": "foobar",
+            "value": "foobar",
+          },
+        ],
+        "placeholder": "enter",
+        "selectedItems": Array [],
+      }
+    }
+  >
+    <label
+      className="cx-formElement"
+      htmlFor="my-id"
+    >
+      <p
+        className="cx-formElement-label"
+      >
+        my label
+      </p>
+      <SelectInput />
+    </label>
+  </Context.Provider>
+</div>
+`;
+
+exports[`Select renders no dropdown 1`] = `
+<div>
+  <Context.Provider
+    value={
+      Object {
+        "clear": [MockFunction],
+        "containerStyle": undefined,
+        "disableInput": undefined,
+        "fakeDownshiftProp": true,
+        "fakeTopLevelProp": true,
+        "fetchDataProps": undefined,
+        "getLabelProps": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "inputId": "my-id",
+        "items": Array [
+          Object {
+            "id": "foo",
+            "value": "foo",
+          },
+          Object {
+            "id": "bar",
+            "value": "bar",
+          },
+          Object {
+            "id": "foobar",
+            "value": "foobar",
+          },
+        ],
+        "placeholder": "enter",
+        "selectedItems": Array [],
+      }
+    }
+  >
+    <label
+      className="cx-formElement"
+      htmlFor="my-id"
+    >
+      <p
+        className="cx-formElement-label"
+      >
+        my label
+      </p>
+      <SelectInput />
+    </label>
+  </Context.Provider>
+</div>
+`;
+
+exports[`Select renders open downshift content 1`] = `
+<div>
+  <Context.Provider
+    value={
+      Object {
+        "clear": [MockFunction],
+        "containerStyle": undefined,
+        "disableInput": undefined,
+        "fakeDownshiftProp": true,
+        "fakeTopLevelProp": true,
+        "fetchDataProps": undefined,
+        "getLabelProps": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+            Array [
+              Object {
+                "css": Object {
+                  "position": "relative",
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "inputId": "my-id",
+        "isOpen": true,
+        "items": Array [
+          Object {
+            "id": "foo",
+            "value": "foo",
+          },
+          Object {
+            "id": "bar",
+            "value": "bar",
+          },
+          Object {
+            "id": "foobar",
+            "value": "foobar",
+          },
+        ],
+        "placeholder": "enter",
+        "selectedItems": Array [],
+      }
+    }
+  >
+    <label
+      className="cx-formElement"
+      htmlFor="my-id"
+    >
+      <p
+        className="cx-formElement-label"
+      >
+        my label
+      </p>
+      <SelectInput />
+      <Dropdown />
+    </label>
+  </Context.Provider>
+</div>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon render 1`] = `
+<Styled(i)
+  className="cx-icon cx-btn-icon cx-btn-icon--left"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<svg class=\\"cx-icon\\" viewBox=\\"0 0 24 24\\"><use xlink:href=\\"/ucfe-assets/cx-icons/4/cx-icons.cdn.svg#cx-icon-x_24x24\\"></use></svg>",
+    }
+  }
+/>
+`;
+
+exports[`Icon render EllipsisIcon 1`] = `
+<Icon
+  name="cx-icon-verticalEllipsis_16x16"
+/>
+`;
+
+exports[`Icon render ExitIcon 1`] = `
+<Icon
+  name="cx-icon-x_16x16"
+/>
+`;
+
+exports[`Icon render TrashIcon 1`] = `
+<Icon
+  name="cx-icon-trash_16x16"
+/>
+`;
+
+exports[`Icon renders additional class 1`] = `
+<Styled(i)
+  className="cx-icon cx-btn-icon cx-btn-icon--right my-icon"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<svg class=\\"cx-icon\\" viewBox=\\"0 0 24 24\\"><use xlink:href=\\"/ucfe-assets/cx-icons/4/cx-icons.cdn.svg#cx-icon-x_24x24\\"></use></svg>",
+    }
+  }
+/>
+`;

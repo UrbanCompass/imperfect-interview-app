@@ -1,0 +1,120 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:testing-library/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@uc/eslint-config-react",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react"
+  ],
+  "plugins": [
+    "babel",
+    "emotion",
+    "jest",
+    "jest-dom",
+    "import",
+    "prettier",
+    "react-hooks",
+    "testing-library"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "jsx-a11y/mouse-events-have-key-events": "off",
+    "no-console": ["error"],
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": "off",
+    "prettier/prettier": [
+      "error",
+      {},
+      {
+        "usePrettierrc": true
+      }
+    ],
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/no-object-literal-type-assertion": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "complexity": "off",
+    "max-depth": ["error", 4],
+    "max-nested-callbacks": ["error", 5],
+    "no-param-reassign": [2, { "props": false }],
+    "no-unused-expressions": "off",
+    "babel/no-unused-expressions": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "import/no-default-export": 2,
+    "import/no-cycle": 0,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.spec.*", "**/*.js", "test/**", "**/devServer/**"]
+      }
+    ],
+    "react-hooks/rules-of-hooks": 2,
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".tsx"]
+      }
+    ],
+    "react/jsx-boolean-value": 0,
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "emotion/syntax-preference": [2, "string"],
+    "emotion/no-vanilla": "error",
+    "emotion/import-from-emotion": "error",
+    "emotion/styled-import": "error"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.*"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "16.8"
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {},
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest/globals": true
+  }
+}

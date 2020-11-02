@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items renders given items by edfault 1`] = `
+<DropdownWrapper
+  className="cx-flyoutContainer cx-optionsMenu"
+>
+  <ItemsContainer
+    className="cx-optionsMenu-section"
+    data-tn="tours-my-Id-dropdown-container"
+    menuProp={true}
+  >
+    <ItemList
+      itemList={
+        Array [
+          Object {
+            "id": "a",
+            "value": "first",
+          },
+          Object {
+            "id": "b",
+            "value": "second",
+          },
+        ]
+      }
+    />
+  </ItemsContainer>
+</DropdownWrapper>
+`;
+
+exports[`Items renders load error 1`] = `
+<DropdownWrapper
+  className="cx-flyoutContainer cx-optionsMenu"
+>
+  <ItemsContainer
+    className="cx-optionsMenu-section"
+    data-tn="tours-my-Id-dropdown-container"
+    menuProp={true}
+  >
+    <li
+      className="cx-optionsMenu-item"
+    >
+      Request failed
+    </li>
+  </ItemsContainer>
+</DropdownWrapper>
+`;
+
+exports[`Items renders loading 1`] = `
+<DropdownWrapper
+  className="cx-flyoutContainer cx-optionsMenu"
+>
+  <ItemsContainer
+    className="cx-optionsMenu-section"
+    data-tn="tours-my-Id-dropdown-container"
+    menuProp={true}
+  >
+    <li
+      className="cx-optionsMenu-item"
+    >
+      Loading...
+    </li>
+  </ItemsContainer>
+</DropdownWrapper>
+`;
+
+exports[`ItemsContainer 1`] = `
+.emotion-0 {
+  overflow-y: scroll;
+  max-height: 250px;
+}
+
+<ItemsContainer>
+  <div
+    className="emotion-0"
+  >
+    something
+  </div>
+</ItemsContainer>
+`;
+
+exports[`Wrapper 1`] = `
+.emotion-0 {
+  position: absolute;
+  z-index: var(--cx-zIndex-1);
+  width: 100%;
+}
+
+<DropdownWrapper>
+  <div
+    className="emotion-0"
+  >
+    something
+  </div>
+</DropdownWrapper>
+`;

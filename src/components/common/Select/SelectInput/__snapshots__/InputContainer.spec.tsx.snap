@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  width: 100%;
+}
+
+<Input>
+  <input
+    className="emotion-0"
+  />
+</Input>
+`;
+
+exports[`InputContainer default renders default 1`] = `
+<InputWrapper>
+  <Input
+    autoCapitalize="off"
+    autoComplete="off"
+    autoCorrect="off"
+    className="cx-selectField-arrow"
+    data-tn="tours-my-id-select-input"
+    id="my-id"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    placeholder="my placeholder"
+    spellCheck={false}
+    type="text"
+  />
+</InputWrapper>
+`;

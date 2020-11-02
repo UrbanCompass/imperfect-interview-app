@@ -1,0 +1,6 @@
+dist
+coverage
+e2e/screenshots
+e2e/videos
+e2e/report
+mochawesome-report

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selectable default renders default 1`] = `
+<div
+  className="cx-selectField u-flexContainer--row"
+  css={
+    Object {
+      "boxSizing": "border-box",
+    }
+  }
+  data-tn="tours-my-id-select-button"
+  id="my-id"
+  role="listbox"
+  tabIndex="0"
+>
+  my placeholder
+</div>
+`;
+
+exports[`Selectable default renders selected item 1`] = `
+<div
+  className="cx-selectField u-flexContainer--row"
+  css={
+    Object {
+      "boxSizing": "border-box",
+    }
+  }
+  data-tn="tours-my-id-select-button"
+  id="my-id"
+  role="listbox"
+  tabIndex="0"
+>
+  something
+</div>
+`;

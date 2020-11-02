@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectInput default renders 1`] = `
+<div
+  css={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <InputContainer />
+</div>
+`;
+
+exports[`SelectInput item selected renders clear button 1`] = `
+<div
+  css={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <InputContainer />
+  <ClearButton />
+</div>
+`;
+
+exports[`SelectInput onlySelect renders Selectable 1`] = `
+<div
+  css={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <Selectable />
+</div>
+`;

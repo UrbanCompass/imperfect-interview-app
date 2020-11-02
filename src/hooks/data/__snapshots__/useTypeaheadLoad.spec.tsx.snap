@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useTypeaheadLoad does not fetch data with no input 1`] = `
+<p
+  data-testid="load-status"
+>
+  loading: false, loadError: false, loaded: false, loaded: false
+</p>
+`;
+
+exports[`useTypeaheadLoad does not fetch data with no input 2`] = `
+<p
+  data-testid="resolved-data"
+>
+  {"fakeData":true}
+</p>
+`;

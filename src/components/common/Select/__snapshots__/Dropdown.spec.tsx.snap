@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown onlySelect has selectedItem renders matched items 1`] = `
+<Items
+  itemsToDisplay={
+    Array [
+      Object {
+        "id": 1,
+        "value": "first",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Dropdown onlySelect no selectedItems renders matched items 1`] = `""`;
+
+exports[`Dropdown regular renders matched items 1`] = `
+<Items
+  itemsToDisplay={
+    Array [
+      Object {
+        "value": "my list",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Dropdown regular renders matched items with showAllItems 1`] = `
+<Items
+  itemsToDisplay={
+    Array [
+      Object {
+        "id": 1,
+        "value": "first",
+      },
+      Object {
+        "id": 2,
+        "value": "second",
+      },
+    ]
+  }
+/>
+`;

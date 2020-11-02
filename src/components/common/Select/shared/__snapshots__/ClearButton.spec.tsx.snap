@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClearButton renders 1`] = `
+<InputButton
+  data-tn="tours-my-id-select-clear"
+  onClick={[Function]}
+  role="button"
+  type="button"
+>
+  <ExitIcon
+    left={true}
+  />
+</InputButton>
+`;
